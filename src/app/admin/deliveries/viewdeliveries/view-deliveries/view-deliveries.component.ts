@@ -412,8 +412,8 @@ export class ViewDeliveriesComponent
     }
 
     startEdit(index: number) {
-        this.editingStageIndex = index;
-        this.originalStageName = this.stages[index];
+        // this.editingStageIndex = index;
+        // this.originalStageName = this.stages[index];
     }
 
     saveStage(index: number, value: any) {
